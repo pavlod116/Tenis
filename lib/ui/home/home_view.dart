@@ -3,11 +3,6 @@ import 'package:table_tenis/ui/home/home_viewmodel.dart';
 import 'package:provider/provider.dart';
 
 class HomeView extends StatelessWidget {
-  // bool isSelect = true;
-  //
-  // void isSelectTrue() {
-  //   isSelect = !isSelect;
-  // }
 
   const HomeView({Key? key}) : super(key: key);
 
@@ -29,7 +24,6 @@ class HomeView extends StatelessWidget {
             autofocus: true,
             onPressed: () {
               model.isSelectTrue();
-              setState(){}
             },
             child: Text(
               models.isSelect ? 'Free' : 'Busy',
